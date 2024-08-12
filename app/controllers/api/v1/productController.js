@@ -84,7 +84,6 @@ module.exports = {
   async findAll(req, res) {
     try {
       if (req.query.brand || req.query.search) {
-        console.log(req.query, "disini");
         const data = await productService.filter(req.query);
         res.status(200).json({
           status: "success",
