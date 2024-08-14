@@ -238,6 +238,21 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        brand_id: null,
+        model: "Samsung Galaxy A55",
+        os: "Android 14, One UI 6.1",
+        chipset: "Exynos 1480 (4nm)",
+        display: "6.6 inch, Super AMOLED, 120Hz",
+        camera: "50MP",
+        battery: "5000mAh",
+        charging: "25W",
+        network: "GSM / HSPA / LTE / 5G",
+        picture: null,
+        description: null,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
   },
 
